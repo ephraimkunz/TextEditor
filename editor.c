@@ -17,8 +17,8 @@ enum editorKey {
     ARROW_RIGHT,
     ARROW_UP,
     ARROW_DOWN,
-    PAGE_UP, // fn + upkey
-    PAGE_DOWN // fn + downkey
+    PAGE_UP, // shift + fn + upkey
+    PAGE_DOWN // shift + fn + downkey
 };
 struct editorConfig {
     struct termios orig_termios;
