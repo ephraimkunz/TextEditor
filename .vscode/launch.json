@@ -7,7 +7,7 @@
             "type": "cppdbg",
             "request": "launch",
             "program": "${workspaceRoot}/editor",
-            "args": [],
+            "args": ["editor.c"],
             "preLaunchTask": "build",
             "stopAtEntry": false,
             "cwd": "${workspaceRoot}",
